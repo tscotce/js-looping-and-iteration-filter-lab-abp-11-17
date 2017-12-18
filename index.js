@@ -9,4 +9,8 @@ function findMatching (drivers, name) {
  })
 }
 
-function fuzzyMatch ()
+function fuzzyMatch (drivers, name) {
+  return drivers.filter (fuction (driver){
+    if ()
+  })
+}
