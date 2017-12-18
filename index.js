@@ -1,5 +1,5 @@
 function findMatching (drivers, name) {
- drivers.filter ()
+ drivers.filter (function ())
 }
 findMatching (drivers, 'Bobby');
 findMatching (drivers, 'Sammy');
