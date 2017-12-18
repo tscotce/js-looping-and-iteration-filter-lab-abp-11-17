@@ -10,7 +10,7 @@ function findMatching (drivers, name) {
 }
 
 function fuzzyMatch (drivers, name) {
- let 
+ let letngthOfName === partialName.length
   return drivers.filter (fuction (driver){
     return driver.slice (0, lengthOfName) === partialName;
   });
