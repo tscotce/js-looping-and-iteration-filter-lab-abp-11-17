@@ -1,9 +1,5 @@
-function findMatching (collection, name) {
-  for (const driver of collection) {
-    if (drivers === name){
-      console.log ();
-    }
-  }
+function findMatching (drivers, name) {
+ 
 }
 findMatching (drivers, 'Bobby');
 findMatching (drivers, 'Sammy');
