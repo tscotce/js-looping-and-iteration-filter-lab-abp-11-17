@@ -15,3 +15,7 @@ function fuzzyMatch (drivers, name) {
     return driver.slice (0, lengthOfName) === name;
   });
 }
+
+function matchName (drivers, name) {
+  
+}
