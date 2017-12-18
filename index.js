@@ -1,5 +1,5 @@
 function findMatching (drivers, name) {
- drivers.filter(function(driver){
+ return drivers.filter(function(driver){
    if(name === driver){
      return true
    }
