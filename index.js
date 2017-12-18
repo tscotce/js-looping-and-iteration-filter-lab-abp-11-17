@@ -11,6 +11,6 @@ function findMatching (drivers, name) {
 
 function fuzzyMatch (drivers, name) {
   return drivers.filter (fuction (driver){
-    return driver.slice (0, lengthOfName)
+    return driver.slice (0, lengthOfName) === partialName
   })
 }
