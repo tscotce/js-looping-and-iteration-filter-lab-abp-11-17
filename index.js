@@ -15,3 +15,9 @@ function fuzzyMatch (drivers, name) {
     return driver.slice (0, lengthOfName) === name;
   });
 }
+function fuzzyMatch (list, partialName) {
+  let lengthOfName = partialName.length;
+  return list.filter(function (driverName) {
+    return driverName.slice(0, lengthOfName) === partialName;
+  });
+}
