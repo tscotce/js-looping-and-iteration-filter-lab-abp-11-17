@@ -1,1 +1,12 @@
-// Code your solution in this file
+const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
+
+function findMatching (collection, name) {
+  for (const driver of collection) {
+    if (drivers === name){
+      console.log ();
+    }
+  }
+}
+findMatching (drivers, 'Bobby');
+findMatching (drivers, 'Sammy');
+findMatching (drivers, 'Susan');
